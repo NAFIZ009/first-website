@@ -17,7 +17,7 @@ body{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     background-size: contain;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 #header img{
     width: 100%;
@@ -53,3 +53,79 @@ a{
     color: white;
     text-align: center;
 }
+#scn{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    /* height: 600px; */
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    margin-bottom: 100px;
+    background-position: right;
+}
+#scn img{
+    width: 100%;
+}
+#scn div{
+    width: 40%;
+}
+.sec{
+    padding-top:50px ;
+}
+#scn h1{
+    padding-bottom:20px ;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+#scn h3{
+    padding-bottom:15px ;
+}
+#experience{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+#flex{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    height: 500px;
+}
+.big{
+    font-size: 38px;
+}
+#flex div{
+    width: 40%;
+    height: 350px;
+    box-shadow: 5px 5px 30px gray ,
+    5px -5px 30px gray;
+    padding-left:20px ;
+    padding-top:30px ;
+    
+}
+.blue-border{
+    border-left: 5px solid blue;
+}
+.oreng-border{
+    border-left: 5px solid orange;
+}
+#flex div p{
+    font-size: 13px;
+}
+#flex div h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+#flex div h4{
+    margin-bottom: 10px;
+    color: orange;
+}
+footer{
+    text-align: center;
+}
+
